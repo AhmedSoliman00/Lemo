@@ -1,0 +1,37 @@
+// Start Var
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+}
+
+// End Var
+// Start global rules
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+
+.parent {
+    background-color: aqua;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+%center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// End global rules

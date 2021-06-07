@@ -1,0 +1,31 @@
+.special-heading {
+    font-size: 7rem;
+    background: linear-gradient(to top, rgba(rgb(96, 123, 241), .3), rgba(#10cab7, 0.3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    letter-spacing: -3px;
+    text-align: center;
+
+    &+p {
+        font-size: 1.3rem;
+        color: rgba(48, 80, 102, 0.753);
+        text-align: center;
+        margin-top: -30px;
+    }
+}
+
+// special heading media
+@media (max-width:768px) {
+
+
+    .special-heading {
+        font-size: 5rem;
+
+
+        &+p {
+            font-size: 1.1rem;
+
+        }
+    }
+}

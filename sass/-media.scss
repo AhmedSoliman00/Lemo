@@ -1,0 +1,38 @@
+// Small
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+// medium
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .about__content {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        .content__image {
+            width: auto;
+            height: auto;
+
+            &::before,
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+//large
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
