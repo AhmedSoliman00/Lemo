@@ -105,6 +105,8 @@
 .landing {
     background-image: linear-gradient(to top, rgba(rgb(29, 28, 28), .1), rgba(#10cab7, 0.1)), url(../images/zza-1920x1080.jpg);
     background-size: cover;
+    filter: blur(.8px);
+    -webkit-filter: blur(.8px);
     height: calc(100vh - 54px);
     position: relative;
 
@@ -113,6 +115,7 @@
         text-align: center;
         width: 320px;
         max-width: 100%;
+        z-index: 4;
 
 
         h1 {
